@@ -1,0 +1,91 @@
+<div class="root">
+  <div class="parent">
+
+    <div *ngFor="let product of products" [routerLink]="'/product/'+product.id" class="col">
+      <p class="top">-15%</p>
+      <img [src]="product.imageUrl" alt="" />
+      <p>{{product.name}}</p>
+      <div class="icon">
+        <h2>₹{{product.price}}</h2>
+        <div>
+          <span><img src="../../assets/icons/shopping-cart.png" alt="" /> </span>
+          <span><img src="../../assets/icons/love.png" alt="" /> </span>
+        </div>
+      </div>
+    </div>
+
+
+    <div routerLink="/product/id" class="col">
+      <p class="top">-15%</p>
+      <img src="../../assets/gallary/item-1.png" alt="" />
+      <p>Silver Party Wear Dress</p>
+      <div class="icon">
+        <h2>₹499</h2>
+        <div>
+          <span><img src="../../assets/icons/shopping-cart.png" alt="" /> </span>
+          <span><img src="../../assets/icons/love.png" alt="" /> </span>
+        </div>
+      </div>
+    </div>
+    <div routerLink="/product/id" class="col">
+      <p class="top">-15%</p>
+      <img src="../../assets/gallary/item-2.png" alt="" />
+      <p>Orange Long Coat</p>
+      <div class="icon">
+        <h2>₹499</h2>
+        <div>
+          <span><img src="../../assets/icons/shopping-cart.png" alt="" /> </span>
+          <span><img src="../../assets/icons/love.png" alt="" /> </span>
+        </div>
+      </div>
+    </div>
+    <div routerLink="/product/id" class="col">
+      <p class="top">-15%</p>
+      <img src="../../assets/gallary/item-3.png" alt="" />
+      <p>Olive Green Georgette Saree</p>
+      <div class="icon">
+        <h2>₹499</h2>
+        <div>
+          <span><img src="../../assets/icons/shopping-cart.png" alt="" /> </span>
+          <span><img src="../../assets/icons/love.png" alt="" /> </span>
+        </div>
+      </div>
+    </div>
+    <div routerLink="/product/id" class="col">
+      <p class="top">-15%</p>
+      <img src="../../assets/gallary/item-4.png" alt="" />
+      <p>B&W Set With Scarf</p>
+      <div class="icon">
+        <h2>₹499</h2>
+        <div>
+          <span><img src="../../assets/icons/shopping-cart.png" alt="" /> </span>
+          <span><img src="../../assets/icons/love.png" alt="" /> </span>
+        </div>
+      </div>
+    </div>
+    <div routerLink="/product/id" class="col">
+      <p class="top">-15%</p>
+      <img src="../../assets/gallary/item-5.png" alt="" />
+      <p>Red Silk Saree</p>
+      <div class="icon">
+        <h2>₹499</h2>
+        <div>
+          <span><img src="../../assets/icons/shopping-cart.png" alt="" /> </span>
+          <span><img src="../../assets/icons/love.png" alt="" /> </span>
+        </div>
+      </div>
+    </div>
+    <div routerLink="/product/id" class="col">
+      <p class="top">-15%</p>
+      <img src="../../assets/gallary/item-6.png" alt="" />
+      <p>Blue Cotton Shirt</p>
+      <div class="icon">
+        <h2>₹499</h2>
+        <div>
+          <span><img src="../../assets/icons/shopping-cart.png" alt="" /> </span>
+          <span><img src="../../assets/icons/love.png" alt="" /> </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

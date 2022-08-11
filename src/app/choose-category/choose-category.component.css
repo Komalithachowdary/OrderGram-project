@@ -1,0 +1,88 @@
+.root {
+  background-image: url("../../assets/background/bg-img-3.svg");
+  background-color: rgb(251, 218, 222);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  background-position: center;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.nav {
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* justify-content: start; */
+}
+.heading {
+  font-size: 2.5rem;
+  /* text-align: center; */
+  /* margin: 7rem; */
+  background-image: url("../../assets/background/bg-img-1.svg");
+  background-repeat: no-repeat;
+  width: max-content;
+  padding: 0.2rem 0.7rem 0 2rem;
+  align-self: center;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+}
+.circle {
+  width: 35px;
+  height: 35px;
+  background-color: inherit;
+  border: solid 2.5px rgb(157, 195, 230);
+  border-radius: 40rem;
+  position: absolute;
+  margin-left: -1.2rem;
+  margin-top: 0.3rem;
+}
+.heart {
+  font-size: 1.5rem;
+  z-index: 50;
+  position: relative;
+  top: 5px;
+}
+.bottom {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#Choose {
+  height: 10%;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgba(165, 165, 165, 0.5);
+  border: none;
+  border-radius: 0.5rem;
+}
+.b-l {
+  width: 40%;
+}
+.opt {
+  width: 60%;
+  font-size: 21px;
+}
+.b-r {
+  width: 60%;
+}
+.clothes {
+  background-image: url(../../assets/women/Picture1.png);
+  height: 80%;
+  width: 95%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+h1 {
+  width: 50%;
+  padding-left: 3rem;
+  padding-top: 4rem;
+  letter-spacing: 1.3px;
+  color: rgb(56, 87, 35);
+  font-family: forte;
+  font-size: 2.4rem;
+}

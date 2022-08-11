@@ -1,0 +1,61 @@
+.root {
+  background-image: url("../../assets/background/bg-img-2.svg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  background-position: center;
+  display: flex;
+  /* box-sizing: border-box; */
+  flex-direction: column;
+  justify-content: center;
+}
+.block {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 90%;
+  height: 90%;
+  /* margin: 2rem; */
+  align-self: center;
+  border-radius: 7rem;
+  overflow: hidden;
+}
+.heading {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  color: rgb(255, 255, 255);
+  padding: 0.4rem;
+  /* margin: 6rem; */
+}
+.head {
+  font-size: 2rem;
+}
+.text {
+  font-size: 1.3rem;
+}
+.input {
+  background-color: rgba(237, 125, 49, 0.5);
+  width: 80%;
+  height: 50%;
+  border-radius: 2rem;
+  overflow: hidden;
+  margin: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.label {
+  font-size: 1rem;
+  /* margin: 0rem 1rem; */
+}
+. .vl {
+  border-left: 60px solid black;
+  /* height: 10%; */
+}
+button {
+  background-color: rgba(237, 125, 49, 0.5);
+  border: none;
+  width: 15%;
+  font-size: 1.3rem;
+  align-self: center;
+  border-radius: 0.3rem;
+}

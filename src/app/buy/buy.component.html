@@ -1,0 +1,108 @@
+<div class="root">
+  <div class="nav">
+    <div class="profile">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="36"
+        height="36"
+        fill="currentColor"
+        class="bi bi-person-circle"
+        viewBox="0 0 16 16"
+      >
+        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+        <path
+          fill-rule="evenodd"
+          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+        />
+      </svg>
+      <span style="padding-left: 0.5rem">Profile</span>
+    </div>
+    <div class="heading">
+      <span class="circle"> </span>
+      <span class="heart"> &#10084; </span>
+      <span style="margin-top: -1rem">
+        &#8475;&#394;&#8496;&#8475;{{ " " }}&#8370;&#8475;&#570;&#8499;
+      </span>
+    </div>
+    <div class="i_p">
+      <span class="bi">
+        <img src="../../assets/icons/loupe.png" alt="" />
+      </span>
+      <span class="bi">
+        <img src="../../assets/icons/love.png" alt="" />
+      </span>
+      <span class="bi">
+        <img src="../../assets/icons/shopping-cart.png" alt="" />
+      </span>
+      <span class="bi">
+        <img src="../../assets/icons/gear.png" alt="" />
+      </span>
+    </div>
+  </div>
+  <span class="check">CHECK YOUR ITEMS</span>
+  <div class="body">
+    <div class="left">
+      <span class="l-1">Review Items and Shipping</span>
+      <span class="l-2"
+        >Estimated Delivery Date : 18<sup>th</sup> July,2022</span
+      >
+      <span class="l-3">Item shipped from OrderGram.com</span>
+      <div class="order">
+        <div class="img">
+          <img src="../../assets/gallary/item-1.png" alt="" />
+        </div>
+        <div class="details">
+          <span>Silver Party Wear Dress</span>
+          <span>Rs. 499</span>
+          <select style="width: 40%; color: rgb(68, 114, 196)" name="" id="">
+            <option value="1">Qty : 1</option>
+            <option value="2">Qty : 2</option>
+            <option value="3">Qty : 3</option>
+          </select>
+          <span>Sold by : Order Gram Ltd.</span>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <span routerLink="/success/orderId" style="cursor: pointer;" class="place">Place your order</span>
+      <span class="sum"
+        >By placing your order, you agree to Order Gram’s privacy notice and
+        conditions.
+      </span>
+      <div class="table">
+        <span style="font-family: algerian; margin: 2rem 0rem">
+          ORDERSUMMARY
+        </span>
+        <table style="font-family: Arial, Helvetica, sans-serif">
+          <tr>
+            <td>Item :</td>
+            <td>Rs.499</td>
+          </tr>
+          <tr>
+            <td>Shipping & Handling :</td>
+            <td>Rs.50</td>
+          </tr>
+          <tr>
+            <td>Total before tax :</td>
+            <td>Rs.549</td>
+          </tr>
+          <tr>
+            <td>Estimated tax to be collected :</td>
+            <td>Rs.5</td>
+          </tr>
+          <tr>
+            <td>Total :</td>
+            <td>Rs.554</td>
+          </tr>
+        </table>
+        <hr />
+        <table style="font-family: Arial, Helvetica, sans-serif;font-weight: 700;">
+          <tr style="color: red; font-weight: 800">
+            <td>Order Total :</td>
+            <td>Rs.554</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

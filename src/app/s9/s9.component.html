@@ -1,0 +1,78 @@
+<div class="root">
+  <div class="nav">
+    <div class="heading">
+      <span class="circle"> </span>
+      <span class="heart"> &#10084; </span>
+      <span style="margin-top: -1rem">
+        &#8475;&#394;&#8496;&#8475;{{ " " }}&#8370;&#8475;&#570;&#8499;
+      </span>
+    </div>
+  </div>
+  <div class="body">
+    <div class="left">
+      <h1>Brand : {{product.name}}</h1>
+      <div class="col">
+        <p class="top">-15%</p>
+        <img style="max-width: 60%;" [src]="product.imageUrl" alt="" />
+        <p>{{product.name}}</p>
+        <div class="icon"></div>
+      </div>
+      <h2>₹{{product.price}}</h2>
+    </div>
+    <div class="right">
+      <div style="display: flex; flex-direction: column; margin-left: 40%">
+        <span class="h" style="margin-bottom: 10px; font-size: 25px"
+          >Silver Party Wear Dress</span
+        >
+        <span class="h">Miss Chase Women's Super Stylish Sliver Dress</span>
+        <span class="h"
+          >Broad necked with mini sleeves. Knee-length dress.</span
+        >
+      </div>
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        "
+      >
+        <button class="btn">
+          WISH LIST
+          <img class="btn-i" src="../../assets/icons/love.png" alt="" />
+        </button>
+        <button routerLink="/buy" class="btn">
+          BUY NOW <img class="btn-i" src="../../assets/icons/buy.png" alt="" />
+        </button>
+        <button class="btn">
+          ADD TO CART
+          <img
+            class="btn-i"
+            src="../../assets/icons/shopping-cart.png"
+            alt=""
+          />
+        </button>
+      </div>
+      <hr />
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        "
+      >
+        <button class="btn-l">CUSTOMIZE PRODUCT</button>
+        <button class="btn-c">
+          CHAT WITH RETAILER
+          <img
+            class="btn-i"
+            style="width: 40px"
+            src="../../assets/icons/chat.png"
+            alt=""
+          />
+        </button>
+        <button class="btn-l">REVIEWS</button>
+      </div>
+    </div>
+  </div>
+  <!-- <hr class="bookends-dots"> -->
+</div>

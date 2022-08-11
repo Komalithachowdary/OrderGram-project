@@ -1,0 +1,29 @@
+<div style="display: flex;flex-direction: column;justify-content: center;align-items: center;">
+    <h1>Add your Product!</h1>
+    <form (ngSubmit)="onSubmit()" #prod="ngForm">
+        <label>Product Name</label>
+        <input type="text" name="name" ngModel />
+        <br>
+        <label>Category</label>
+        <input type="text" name="category" ngModel />
+        <br>
+        <label>Sub-Category</label>
+        <input type="text" name="subCategory" ngModel />
+        <br>
+        <label>Description</label>
+        <input type="text" name="description" ngModel />
+        <br>
+        <label>Image Url</label>
+        <input type="text" name="imageUrl" ngModel />
+        <br>
+        <label>Price</label>
+        <input type="number" name="price" ngModel />
+        <br>
+        <label>Rating</label>
+        <input type="number" name="rating" ngModel />
+        <br>
+        <button type="submit" >Save</button>
+    </form>
+</div>
+
+

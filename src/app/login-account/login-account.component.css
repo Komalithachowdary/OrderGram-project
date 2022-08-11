@@ -1,0 +1,98 @@
+.input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  min-height: 3rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* border: dashed 1px var(--color); */
+  border-radius: 0.6rem;
+  padding: 0.3rem;
+  overflow: hidden;
+  transition: all 1s linear;
+  margin: 0.6rem 0.5rem;
+  max-width: 25rem;
+  /* min-width: 1rem; */
+  outline: none;
+  border: none;
+  height: 100%;
+}
+label {
+  margin: 0.6rem 0 0 0.6rem;
+  font-family: Calibri;
+  font-size: 24px;
+}
+.head {
+  margin: 2rem auto;
+  border-radius: 5px;
+  font-size: 2rem;
+  text-align: center;
+  background-image: url("../../assets/background/bg-img-1.svg");
+  height: 40px;
+  width: 294px;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  overflow: hidden;
+  /* background-size: 100% 100%; */
+}
+button {
+  margin:1rem auto;
+  border-radius: 10px;
+  font-size: 2rem;
+  text-align: center;
+  /* background-color: red; */
+  max-height: 74.88px;
+  max-width: 408px;
+  display: block;
+  cursor: pointer;
+}
+.newbutton {
+  padding: 0.4rem 3rem;
+}
+.newbutton:hover {
+  background-color: rgba(146, 97, 97, 0.486);
+}
+.loginbutton {
+  padding: 0.4rem 3rem;
+  /* background-color: ; */
+}
+.loginbutton:hover {
+  background-color: rgba(146, 97, 97, 0.486);
+}
+.root {
+  background-image: url("../../assets/background/bg-img-2.svg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 3rem;
+  text-align: center;
+  margin: 5rem;
+  background-image: url("../../assets/background/bg-img-1.svg");
+  background-repeat: no-repeat;
+  width: max-content;
+  padding: 0.7rem 0.7rem 0 2rem;
+  align-self: center;
+  border-radius: 0.5rem;
+}
+.heart {
+  font-size: 1.5rem;
+  z-index: 50;
+  position: relative;
+  top: 5px;
+}
+.circle {
+  height: 40px;
+  width: 40px;
+  background-color: inherit;
+  border: solid 2.5px rgb(157, 195, 230);
+  border-radius: 40rem;
+  position: absolute;
+  margin-left: -1.2rem;
+  margin-top: 0.5rem;
+}

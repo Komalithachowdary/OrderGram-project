@@ -1,0 +1,53 @@
+<div class="root">
+  <div class="head"routerLink="">
+    <span class="circle"> </span>
+    <span class="heart">
+      &#10084;
+    </span>
+    <span style="margin-top: -1rem">
+      &#8475;&#394;&#8496;&#8475;{{ " " }}&#8370;&#8475;&#570;&#8499;
+    </span>
+  </div>
+  <div class="card">
+    <form (ngSubmit)="onSubmit()" action="" #f="ngForm" >
+      <div>
+        <label>Your Name</label>
+        <div>
+          <input type="text" name="name" class="input" required ngModel />
+        </div>
+      </div>
+      <div>
+        <label>Email ID</label>
+        <div>
+          <input type="text" name="email" type="email" required class="input" ngModel />
+        </div>
+      </div>
+      <div>
+        <label>Password</label>
+        <div>
+          <input type="password" name="password" required class="input" ngModel />
+        </div>
+      </div>
+      <div>
+        <label>Re-enter Password</label>
+        <div>
+          <input type="text" name="repass" class="input" required ngModel/>
+        </div>
+      </div>
+      <div>
+        <button [disabled]="f.invalid"  class="createbutton" type="submit" >Create an account</button>
+      </div>
+    </form>
+  </div>
+  
+  <div
+    style="
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+    "
+  >
+    By creating an account, you agree to OrderGram’s Conditions of Use and
+    Privacy Notice
+  </div>
+</div>

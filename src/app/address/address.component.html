@@ -1,0 +1,100 @@
+<div class="root">
+  <div class="block">
+    <div class="heading">
+      Please fill the location and credit/debit card details
+    </div>
+    <hr />
+    <div style="display: flex; flex-direction: row">
+      <div style="width: 50%; height: 100%">
+        <div class="address">
+          <div>Add address</div>
+          <div>
+            <button class="btn" style="margin: 1.5rem">
+              Use current location
+            </button>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center">
+          <hr style="width: 48%; height: 0px" />
+          <span
+            style="
+              display: inline;
+              margin: auto 0.3rem;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+                sans-serif;
+            "
+            >OR</span
+          >
+          <hr style="width: 48%; height: 0" />
+        </div>
+        <div style="margin: 1rem auto">
+          <select class="btn">
+            <option value="Choose country">Choose country</option>
+          </select>
+        </div>
+        <div style="margin: 1rem auto">
+          <input type="text" class="btn input" placeholder="Full Name" />
+        </div>
+        <div style="margin: 1rem auto">
+          <input type="number" class="btn input" placeholder="Mobile Number" />
+        </div>
+        <div style="margin: 1rem auto">
+          <input type="number" class="btn input" placeholder="Pincode" />
+        </div>
+        <div>
+          <input
+            type="text"
+            class="btn input"
+            placeholder="Flat, House.no., Building, Company, Apartment"
+          />
+        </div>
+      </div>
+      <div style="width: 50%; height: 100%">
+        <div style="text-align: center">
+          <div>
+            <input type="text" class="btn input" placeholder="Area" />
+          </div>
+          <div>
+            <input type="text" class="btn input" placeholder="Landmark" />
+          </div>
+          <div>
+            <input type="text" class="btn input" placeholder="Town/City" />
+          </div>
+          <div>
+            <input type="text" class="btn input" placeholder="State" />
+          </div>
+        </div>
+        <div style="width: 75%; margin-left: 6.5rem">
+          <div class="checkbox">
+            <input type="checkbox" class="check" />
+            <label class="checktext">Make this my default address</label>
+          </div>
+          <div class="extra">Add delivery instructions</div>
+          <div class="extra" style="font-size: 1rem">
+            Preferences are used to plan your delivery. However, shipments can
+            sometimes arrive early or later than planned
+          </div>
+          <div class="extra">Address type</div>
+          <div>
+            <select
+              class="extra"
+              style="
+                background: rgba(255, 255, 255, 0.37);
+                color: white;
+                border-radius: 0.5rem;
+                padding: 0.5rem 8rem 0.5rem 0.5rem;
+              "
+            >
+              <option value="Select an address type">
+                Select an address type
+              </option>
+            </select>
+            <div style="text-align: center">
+              <button class="btns"routerLink="/payment">USE THIS ADDRESS</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

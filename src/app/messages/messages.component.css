@@ -1,0 +1,39 @@
+.root {
+  background-image: url("../../assets/background/bg-img-3.svg");
+  background-color: rgb(251, 218, 222);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  background-position: center;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.l-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem 2rem;
+}
+.left {
+  background-color: rgba(0, 0, 0, 0.63);
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border-radius: 2rem;
+  margin: 2rem;
+  position: relative;
+  /* overflow: inherit; */
+  height: 80%;
+}
+.right {
+  background-color: rgba(237, 125, 49, 0.5);
+  width: 6%;
+  margin: 2rem;
+  height: 8%;
+  display: flex;
+  flex-direction: column;
+}

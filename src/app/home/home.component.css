@@ -1,0 +1,58 @@
+.root {
+  background-image: url("../../assets/background/bg-img-1.svg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  background-position: center;
+}
+.w {
+  font-family: Brush Script MT;
+  font-size: 1.6rem;
+  margin: 2.5rem 0 0 0;
+  text-align: center;
+}
+@media screen and (min-width: 806px) {
+  .w {
+    padding-left: 20rem;
+  }
+}
+.sign {
+  margin: 2rem auto;
+  border-radius: 10px;
+  font-size: 2rem;
+  text-align: center;
+  /* background-color: red; */
+  max-height: 74.88px;
+  max-width: 408px;
+  display: block;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 1rem 4rem;
+  background-image: linear-gradient(rgba(153, 255, 51), rgba(0, 0, 0, 0.253));
+  border: none;
+  color: rgb(118, 113, 113);
+}
+.circle {
+  height: 40px;
+  width: 40px;
+  background-color: inherit;
+  border: solid 2.5px rgb(157, 195, 230);
+  border-radius: 40rem;
+  position: absolute;
+  margin-left: -1.2rem;
+  margin-top: 0.28rem;
+}
+.heading {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 7rem;
+  height: 60px;
+}
+.heart {
+  font-size: 1.5rem;
+  z-index: 50;
+  position: relative;
+  top: 5px;
+}

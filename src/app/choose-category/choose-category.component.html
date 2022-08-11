@@ -1,0 +1,44 @@
+<div class="root">
+  <div class="nav">
+    <div class="heading">
+      <span class="circle"> </span>
+      <span
+        class="heart"
+        style="
+          font-family: none;
+          font-size: 1.5rem;
+          z-index: 50;
+          position: relative;
+          top: 6px;
+        "
+      >
+        &#10084;
+      </span>
+      <span style="margin-top: -1rem">
+        &#8475;&#394;&#8496;&#8475;{{ " " }}&#8370;&#8475;&#570;&#8499;
+      </span>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="b-l">
+      <select (change)="onCategoryChange($event)"  class="opt" name="" id="Choose">
+        <option value="">Choose the Chategory</option>
+        <option *ngFor="let cat of subCat " [value]="cat">{{cat}}</option>
+        <!-- <option value="">Sarees</option>
+        <option value="">Kurtis</option>
+        <option value="">Jeans</option>
+        <option value="">Dresses</option>
+        <option value="">Jumpsuits</option>
+        <option value="">Casual wear</option> -->
+      </select>
+    </div>
+    <div class="b-r">
+      <div class="clothes">
+        <h1>
+          Clothes aren’t going to change the world, the women who wear them
+          will.
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
